@@ -16,7 +16,7 @@ PlayerSettings:
   productName: TheCrownJewel
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
@@ -29,10 +29,10 @@ PlayerSettings:
   m_SplashScreenBackgroundPortraitAspect: 1
   m_SplashScreenBackgroundLandscapeUvs:
     serializedVersion: 2
-    x: 0
+    x: 0.5714286
     y: 0
-    width: 1
-    height: 1
+    width: 0.14285713
+    height: 0.083333336
   m_SplashScreenBackgroundPortraitUvs:
     serializedVersion: 2
     x: 0
@@ -153,7 +153,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Standalone: com.DefaultCompany.TheCrownJewel
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -524,7 +525,7 @@ PlayerSettings:
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0
   monoEnv: 
-  splashScreenBackgroundSourceLandscape: {fileID: 0}
+  splashScreenBackgroundSourceLandscape: {fileID: -1374108983, guid: 229c103a78f4f354790bf150f348cc44, type: 3}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
@@ -584,7 +585,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: TheCrownJewel
-  metroPackageVersion: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -592,7 +593,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: TheCrownJewel
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: TheCrownJewel
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
