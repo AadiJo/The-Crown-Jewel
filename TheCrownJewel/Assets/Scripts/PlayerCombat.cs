@@ -202,9 +202,13 @@ public class PlayerCombat : MonoBehaviour
     {
 
         animator.SetBool("isSpecial", true);
+        GetComponent<Rigidbody2D>().gravityScale = 0;
+        transform.position = new Vector2(transform.position.x, transform.position.y + 0.5f);
         isAttacking = true;
         yield return new WaitForSeconds(2f);
         animator.SetBool("isSpecial", false);
+        transform.position = new Vector2(transform.position.x, transform.position.y - 0.5f);
+        GetComponent<Rigidbody2D>().gravityScale = 0;
         yield return new WaitForSeconds(0.3f);
         isAttacking = false;
 
