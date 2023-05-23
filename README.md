@@ -13,4 +13,4 @@ In a new world, a new place. Full of mysteries never seen before...
 
 ## Screenshots
 
-![Game Screenshot](https://imgur.com/MNuOaSE)
+![Game Screenshot]([https://imgur.com/MNuOaSE](https://imgur.com/MNuOaSE))
