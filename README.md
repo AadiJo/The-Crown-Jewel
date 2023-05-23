@@ -14,5 +14,6 @@ In a new world, a new place. Full of mysteries never seen before...
 ## Screenshots
 
 ![Game Gif](https://i.imgur.com/sJTXIVX.gif)
+####
 ![Game Screenshot](https://i.imgur.com/MNuOaSE.png)
 
