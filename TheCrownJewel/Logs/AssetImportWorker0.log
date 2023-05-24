@@ -908,3 +908,501 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\AadiJ\Projects\The-Crown-Jewel\TheCrownJewel\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\AadiJ\Projects\The-Crown-Jewel\TheCrownJewel\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.514 seconds
+Refreshing native plugins compatible for Editor in 16.09 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.519 seconds
+Domain Reload Profiling:
+	ReloadAssembly (384ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		LoadAllAssembliesAndSetupDomain (1111ms)
+			LoadAssemblies (697ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (511ms)
+				TypeCache.Initialize (499ms)
+					TypeCache.ScanAssembly (491ms)
+				ResolveRequiredComponents (11ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (679ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 15.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.8 MB). Loaded Objects now: 6136.
+Memory consumption went from 190.2 MB to 189.4 MB.
+Total: 7.819800 ms (FindLiveObjects: 0.854400 ms CreateObjectMapping: 0.977400 ms MarkObjects: 5.297200 ms  DeleteObjects: 0.688500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\AadiJ\Projects\The-Crown-Jewel\TheCrownJewel\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\AadiJ\Projects\The-Crown-Jewel\TheCrownJewel\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.705 seconds
+Refreshing native plugins compatible for Editor in 15.28 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.282 seconds
+Domain Reload Profiling:
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (454ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (183ms)
+		LoadAllAssembliesAndSetupDomain (1080ms)
+			LoadAssemblies (767ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (451ms)
+				TypeCache.Initialize (414ms)
+					TypeCache.ScanAssembly (401ms)
+				ResolveRequiredComponents (26ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (671ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (343ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 14.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.8 MB). Loaded Objects now: 6142.
+Memory consumption went from 190.3 MB to 189.5 MB.
+Total: 6.736900 ms (FindLiveObjects: 0.596500 ms CreateObjectMapping: 0.623700 ms MarkObjects: 4.791700 ms  DeleteObjects: 0.721400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 86324.324712 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Spiked Slime/Slime_Spiked_Ability_FX.png
+  artifactKey: Guid(5c8aa5cddc6c85247a9291eb643a5ff7) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Spiked Slime/Slime_Spiked_Ability_FX.png using Guid(5c8aa5cddc6c85247a9291eb643a5ff7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1ceafc42c848ba14c75419e8499273df') in 0.133368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_AttackA_FX.png
+  artifactKey: Guid(3c320c5271733af4c9875d0504d0dd43) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_AttackA_FX.png using Guid(3c320c5271733af4c9875d0504d0dd43) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6b00aaa7c7df28ee1c3c42b1d846dd57') in 0.032018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_DeathB.png
+  artifactKey: Guid(5cabce78dec070945b89e0c06514985f) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_DeathB.png using Guid(5cabce78dec070945b89e0c06514985f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '595bee931a902424154af9fc4731b629') in 0.031979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_Run.png
+  artifactKey: Guid(87040eabec4954c44bf7bb04dfd9b3be) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_Run.png using Guid(87040eabec4954c44bf7bb04dfd9b3be) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6360c359db12e3a5a4a37bded44616a5') in 0.030463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Attack_FX.png
+  artifactKey: Guid(9f4666dd2c43d6c4eabd7fca76affcec) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Attack_FX.png using Guid(9f4666dd2c43d6c4eabd7fca76affcec) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f970ac40d075dff8327eda7fcaee295d') in 0.032782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackC_FX.png
+  artifactKey: Guid(9164fca0983f5734bad23945fccd2e49) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackC_FX.png using Guid(9164fca0983f5734bad23945fccd2e49) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd961e89c3b01795806d9d089eb8ed004') in 0.032499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackB_FX.png
+  artifactKey: Guid(7a6711e9af0c1e348b01a758120343b6) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackB_FX.png using Guid(7a6711e9af0c1e348b01a758120343b6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '9f0d0c99f02a9e6d551e9bb4e866f47f') in 0.032639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_AttackB.png
+  artifactKey: Guid(0193a293270d5f247a5ebc009c8de825) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_AttackB.png using Guid(0193a293270d5f247a5ebc009c8de825) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3444018ed96a8f937d60f7804903079b') in 0.034200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Spiked Slime/Slime_Spiked_Ability.png
+  artifactKey: Guid(36c306bbdf8331549ad33fdf28f674e7) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Spiked Slime/Slime_Spiked_Ability.png using Guid(36c306bbdf8331549ad33fdf28f674e7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a4571a8297cba2e9febe3ad5cd77997b') in 0.034096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_ArmorBreak.png
+  artifactKey: Guid(3ebca2643f7314a4b876187e664c9754) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_ArmorBreak.png using Guid(3ebca2643f7314a4b876187e664c9754) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '834f90f7cc8b581d8c8b65d5e690f377') in 0.031659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_AttackB.png
+  artifactKey: Guid(25a3186823579f342b2398d96f6e55a6) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_AttackB.png using Guid(25a3186823579f342b2398d96f6e55a6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f6a99ecc8f7ac08372e8680902723d6f') in 0.033190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Pebble/Pebble_Hit.png
+  artifactKey: Guid(3f2b9fa17f592fa4fb2597d22cfd6192) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Pebble/Pebble_Hit.png using Guid(3f2b9fa17f592fa4fb2597d22cfd6192) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'da32e1555668422daca4625b70fc739d') in 0.029789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_HitB.png
+  artifactKey: Guid(3f90aef0b8dcbbe4ea65156cbd6d8acd) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_HitB.png using Guid(3f90aef0b8dcbbe4ea65156cbd6d8acd) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'be44526b9d685e2d711436aa922c4632') in 0.032949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_Idle.png
+  artifactKey: Guid(25e3c3e2a286eee48bba19e8d339e062) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_Idle.png using Guid(25e3c3e2a286eee48bba19e8d339e062) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1a0c2dcab4c9caabc74e1bfae135ab69') in 0.029672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_Upgrade.png
+  artifactKey: Guid(20df5f5471596254f99315fbac829d0f) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_Upgrade.png using Guid(20df5f5471596254f99315fbac829d0f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4e83635391cd7891bb64aa94c7513aa4') in 0.034435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000825 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackA_FX.png
+  artifactKey: Guid(25f36137d1a3f58498a1e8c33a9589ed) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackA_FX.png using Guid(25f36137d1a3f58498a1e8c33a9589ed) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8374dc9df30e42e4206f00d174a6c766') in 0.032067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_DeathA.png
+  artifactKey: Guid(d3cba21def3900e44a8969a6f3fa7931) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_DeathA.png using Guid(d3cba21def3900e44a8969a6f3fa7931) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7d00d66f0b37e6270aaebd45f410eb64') in 0.033017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Bat/Bat_Attack_FX.png
+  artifactKey: Guid(7a638afa92b731446974b08b4f8a3201) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Bat/Bat_Attack_FX.png using Guid(7a638afa92b731446974b08b4f8a3201) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c171101556e772ccec35d63d69cb370a') in 0.032239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_Hit.png
+  artifactKey: Guid(dca5b4ee5fdccd944bc45a38dd6debfa) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_Hit.png using Guid(dca5b4ee5fdccd944bc45a38dd6debfa) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '11b459dc0e3f9bde3c3b683d73c054cb') in 0.029199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Death.png
+  artifactKey: Guid(47ccfa2097f32dc48988cbecb76d03de) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Death.png using Guid(47ccfa2097f32dc48988cbecb76d03de) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6d2dffa4dfe541fccec1bbdf797505fe') in 0.030208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Attack.png
+  artifactKey: Guid(6bcc22196438ea542b9177f5fbaf5933) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Attack.png using Guid(6bcc22196438ea542b9177f5fbaf5933) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '56b16f8a713b19ed0d317578c2c94dbf') in 0.033271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_Full.png
+  artifactKey: Guid(74061816db95d48429e43602c667685d) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_Full.png using Guid(74061816db95d48429e43602c667685d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '95e823b22fe7f9c0c04ff1e6be96e277') in 0.085380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Spiked Slime/Slime_Spiked_Hit.png
+  artifactKey: Guid(6eafca8d996aade4cb3c0a9acba00f2a) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Spiked Slime/Slime_Spiked_Hit.png using Guid(6eafca8d996aade4cb3c0a9acba00f2a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '06537436cf924731511fde3659fa5808') in 0.034369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Spiked Slime/Slime_Spiked_Idle.png
+  artifactKey: Guid(0a210a6ac82f1214a89ccd8911af22c7) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Spiked Slime/Slime_Spiked_Idle.png using Guid(0a210a6ac82f1214a89ccd8911af22c7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f194a4fdbd27fbcbefed126482cf0dce') in 0.031730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_IdleB.png
+  artifactKey: Guid(b10aba54aecddfa4a955158f5746f0f4) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_IdleB.png using Guid(b10aba54aecddfa4a955158f5746f0f4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b991f0a9ec1fe4e25b2111aabd7e4fd3') in 0.027827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Death_FX.png
+  artifactKey: Guid(ceb49d51625b9e349baca35d6f527cb5) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Death_FX.png using Guid(ceb49d51625b9e349baca35d6f527cb5) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'cfba523fe298f29c5c325baa6a2e7bb8') in 0.029718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Ability.png
+  artifactKey: Guid(527d0ddf082e4724a861fc734336bee7) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Ability.png using Guid(527d0ddf082e4724a861fc734336bee7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '0a57f96e7f96668fbd988206dc5c1386') in 0.036749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Skull/Bones_SingleSkull_Idle.png
+  artifactKey: Guid(26f2fab31eacb6948aaee40453cfc60b) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Skull/Bones_SingleSkull_Idle.png using Guid(26f2fab31eacb6948aaee40453cfc60b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd6256329f6465219cabc7bbf1af061e2') in 0.028301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_Reset.png
+  artifactKey: Guid(5255408032fdfcd4cb095ccab7ec1369) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_Reset.png using Guid(5255408032fdfcd4cb095ccab7ec1369) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5b21b18f7d3a9546533a85be8f1bf9b2') in 0.033627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Bat/Bat_Full_FX.png
+  artifactKey: Guid(c8c47f33b2852e74696a02bcc97dee5a) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Bat/Bat_Full_FX.png using Guid(c8c47f33b2852e74696a02bcc97dee5a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5e470a10eb209dce3b97b0abec44cff5') in 0.038432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_IdleA.png
+  artifactKey: Guid(6946cd59d8c7e234f851a23d8ce98454) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_IdleA.png using Guid(6946cd59d8c7e234f851a23d8ce98454) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '9f062cc25c0a4580d3b102c73c8a73fc') in 0.031997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_AttackA_FX.png
+  artifactKey: Guid(ce51cca48985eb6408b011ff739d5943) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_AttackA_FX.png using Guid(ce51cca48985eb6408b011ff739d5943) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '21c8348a71e44341c1f8dcf6fca38e96') in 0.037341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackA.png
+  artifactKey: Guid(2ceb0bb8a5597a6468307ab9cac80aea) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackA.png using Guid(2ceb0bb8a5597a6468307ab9cac80aea) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '600a47ef162f0125755cbc2d39caa297') in 0.034200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Run.png
+  artifactKey: Guid(2327dee1e20363b41a2488a631a0a941) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Run.png using Guid(2327dee1e20363b41a2488a631a0a941) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b4a323be92b81228486c47e847c620e9') in 0.041860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_Run.png
+  artifactKey: Guid(d846abb0336da004fbf063a0e91aeaea) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_Run.png using Guid(d846abb0336da004fbf063a0e91aeaea) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '85f9060d59664381ea8ac00e8f6ea746') in 0.030496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_Full.png
+  artifactKey: Guid(d117b16d50b7bd645ab2f86da4e1f0bd) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_Full.png using Guid(d117b16d50b7bd645ab2f86da4e1f0bd) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c961179b7ee4b132fe69527014aa4b92') in 0.059692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackB.png
+  artifactKey: Guid(8763884bab90cda46990f8d9c8cccb99) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackB.png using Guid(8763884bab90cda46990f8d9c8cccb99) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4f93f05484a04f0c4e18ee37b0463931') in 0.035724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_AttackC_FX.png
+  artifactKey: Guid(0fce656a58beddd4d86173daba054182) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_AttackC_FX.png using Guid(0fce656a58beddd4d86173daba054182) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1e4349b40822e9f430b4aecd8b8807e1') in 0.031339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\AadiJ\Projects\The-Crown-Jewel\TheCrownJewel\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\AadiJ\Projects\The-Crown-Jewel\TheCrownJewel\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.677 seconds
+Refreshing native plugins compatible for Editor in 14.08 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.431 seconds
+Domain Reload Profiling:
+	ReloadAssembly (517ms)
+		BeginReloadAssembly (361ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		LoadAllAssembliesAndSetupDomain (1132ms)
+			LoadAssemblies (811ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+				TypeCache.Initialize (475ms)
+					TypeCache.ScanAssembly (466ms)
+				ResolveRequiredComponents (26ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (770ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (415ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 13.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.8 MB). Loaded Objects now: 6163.
+Memory consumption went from 190.4 MB to 189.6 MB.
+Total: 4.746900 ms (FindLiveObjects: 0.497200 ms CreateObjectMapping: 0.532500 ms MarkObjects: 3.264800 ms  DeleteObjects: 0.450700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
