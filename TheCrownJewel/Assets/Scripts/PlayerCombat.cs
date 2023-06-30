@@ -49,7 +49,7 @@ public class PlayerCombat : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            shockWaveManager.CallShockWave();
+
             Special();
 
         }
@@ -207,6 +207,7 @@ public class PlayerCombat : MonoBehaviour
         GetComponent<Rigidbody2D>().gravityScale = 0;
         transform.position = new Vector2(transform.position.x, transform.position.y + 0.5f);
         isAttacking = true;
+        shockWaveManager.CallShockWave();
         yield return new WaitForSeconds(2f);
         animator.SetBool("isSpecial", false);
         transform.position = new Vector2(transform.position.x, transform.position.y - 0.5f);

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShockWaveManager : MonoBehaviour
 {
-    [SerializeField] private float _shockWaveTime = 0.75f;
+    [SerializeField] private float _shockWaveTime = 0.50f;
 
     private Coroutine _shockWaveCoroutine;
 
