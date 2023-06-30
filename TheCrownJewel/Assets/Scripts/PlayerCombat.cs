@@ -13,6 +13,7 @@ public class PlayerCombat : MonoBehaviour
     private Rigidbody2D rb;
 
     public LayerMask enemyLayers;
+    public ShockWaveManager shockWaveManager;
     public LayerMask bossLayers;
 
     public PlayerMovement playerMovement;
@@ -48,7 +49,7 @@ public class PlayerCombat : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-
+            shockWaveManager.CallShockWave();
             Special();
 
         }
@@ -171,6 +172,7 @@ public class PlayerCombat : MonoBehaviour
     {
         if (characterController.m_Grounded && !playerMovement.crouch && !characterController.m_Running)
         {
+
             StartCoroutine(temp());
         }
 

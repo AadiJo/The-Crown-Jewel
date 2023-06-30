@@ -34,6 +34,7 @@ public class CharacterController2D : MonoBehaviour
     public BoolEvent OnCrouchEvent;
     private bool m_wasCrouching = false;
 
+
     private void Awake()
     {
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -109,6 +110,19 @@ public class CharacterController2D : MonoBehaviour
             {
                 crouch = true;
             }
+        }
+
+        if (m_Falling)
+        {
+
+            m_CrouchDisableCollider.enabled = false;
+
+        }
+        else if (!m_Falling && !crouch)
+        {
+
+            m_CrouchDisableCollider.enabled = true;
+
         }
 
         //only control the player if grounded or airControl is turned on

@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     bool attacking = false;
     Vector3 initialCords;
 
+    public bool inCave = false;
+
     public bool canMove = true;
 
     void Start()

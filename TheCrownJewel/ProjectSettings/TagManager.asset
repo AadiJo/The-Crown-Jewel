@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Background
   layers:
   - Default
   - TransparentFX
@@ -41,15 +42,18 @@ TagManager:
   - name: Background
     uniqueID: 924134643
     locked: 0
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Entity
     uniqueID: 1352630351
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Folliage
     uniqueID: 1685817519
     locked: 0
   - name: Ground
     uniqueID: 929223371
+    locked: 0
+  - name: CameraSortingLayer
+    uniqueID: 4100206585
     locked: 0
