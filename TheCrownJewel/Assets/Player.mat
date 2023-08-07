@@ -48,7 +48,7 @@ Material:
     - _Fade: 1
     - _Scale: 40
     m_Colors:
-    - _Color: {r: 0, g: 4.6083965, b: 33.89676, a: 0}
+    - _Color: {r: 0, g: 4.614218, b: 33.89676, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2140335294436317656
 MonoBehaviour:
