@@ -33,8 +33,6 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(float Damage)
     {
-        Debug.Log("Hit!");
-
         StartCoroutine(delayHurtAnimation(0.1f));
 
     }

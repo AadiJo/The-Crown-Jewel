@@ -93,7 +93,8 @@ public class PlayerCombat : MonoBehaviour
             //Play animation
             int attackRandomizer = Random.Range(0, 2);
             animator.SetInteger("attackRandomizer", attackRandomizer);
-            if (!animator.GetBool("isJumping") && !animator.GetBool("isFalling")){
+            if (!animator.GetBool("isJumping") && !animator.GetBool("isFalling"))
+            {
 
                 if (attackRandomizer == 0)
                 {
@@ -108,12 +109,14 @@ public class PlayerCombat : MonoBehaviour
 
                 }
 
-            }else{
-                
+            }
+            else
+            {
+
                 attackPoint.transform.position = new Vector2(attackPoint.position.x, transform.position.y + 0.1f);
 
             }
-            
+
             //FindObjectOfType<AudioManager>().Play("PlayerAttack");
             animator.SetTrigger("attack");
             StartCoroutine(stopMovement());
@@ -180,7 +183,6 @@ public class PlayerCombat : MonoBehaviour
     {
         if (characterController.m_Grounded && !playerMovement.crouch && !characterController.m_Running)
         {
-
             StartCoroutine(temp());
         }
 
@@ -209,7 +211,8 @@ public class PlayerCombat : MonoBehaviour
 
     IEnumerator temp()
     {
-
+        Vector2 oldAttackPointCords = attackPoint.transform.position; attackPoint.transform.position = transform.position;
+        float oldAttackRange = attackRange; attackRange = 3.5f;
         animator.SetBool("isSpecial", true);
         GetComponent<Rigidbody2D>().gravityScale = 0;
         transform.position = new Vector2(transform.position.x, transform.position.y + 0.5f);
@@ -217,6 +220,8 @@ public class PlayerCombat : MonoBehaviour
         shockWaveManager.CallShockWave();
         yield return new WaitForSeconds(2f);
         animator.SetBool("isSpecial", false);
+        attackPoint.transform.position = oldAttackPointCords;
+        attackRange = oldAttackRange;
         transform.position = new Vector2(transform.position.x, transform.position.y - 0.5f);
         GetComponent<Rigidbody2D>().gravityScale = 1;
         yield return new WaitForSeconds(0.3f);

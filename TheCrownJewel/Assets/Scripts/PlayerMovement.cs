@@ -11,12 +11,13 @@ public class PlayerMovement : MonoBehaviour
 
     public float runSpeed = 40f;
     private float originalRunSpeed;
+    private float bottomBarrier = -40f;
 
     float horizontalMove = 0f;
     bool jump = false;
     [HideInInspector] public bool crouch = false;
     bool attacking = false;
-    [SerializeField] public Vector3 initialCords { get;  private set; }
+    [SerializeField] public Vector3 initialCords { get; private set; }
 
     public bool inCave = false;
 
@@ -52,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        if (transform.position.y < -25)
+        if (transform.position.y < bottomBarrier)
         {
 
             transform.position = initialCords;
