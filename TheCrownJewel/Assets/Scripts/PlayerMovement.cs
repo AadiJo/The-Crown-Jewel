@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     bool jump = false;
     [HideInInspector] public bool crouch = false;
     bool attacking = false;
-    Vector3 initialCords;
+    [SerializeField] public Vector3 initialCords { get;  private set; }
 
     public bool inCave = false;
 
@@ -49,6 +49,13 @@ public class PlayerMovement : MonoBehaviour
         {
 
             runSpeed = 0;
+
+        }
+
+        if (transform.position.y < -25)
+        {
+
+            transform.position = initialCords;
 
         }
 

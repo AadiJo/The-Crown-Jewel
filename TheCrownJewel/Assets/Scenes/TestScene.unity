@@ -3011,10 +3011,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1097088145}
   attackPoint: {fileID: 1124157845}
-  attackRange: 0.5
+  attackRange: 0.6
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   shockWaveManager: {fileID: 831938849}
   bossLayers:
     serializedVersion: 2
@@ -3066,7 +3066,7 @@ GameObject:
   - component: {fileID: 1129305655}
   - component: {fileID: 1129305654}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ResetButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3135,7 +3135,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1129305655}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1027213986}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Reset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1129305655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13351,7 +13363,9 @@ GameObject:
   - component: {fileID: 1978588455}
   - component: {fileID: 1978588458}
   - component: {fileID: 1978588459}
-  m_Layer: 0
+  - component: {fileID: 1978588460}
+  - component: {fileID: 1978588461}
+  m_Layer: 7
   m_Name: Golem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13439,7 +13453,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978588454}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.31, z: 0}
+  m_LocalPosition: {x: 0, y: -0.53, z: 0}
   m_LocalScale: {x: -2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13478,7 +13492,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00363338, y: -0.02693586}
+  m_Offset: {x: 0.009930819, y: -0.035752594}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13489,7 +13503,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2937925, y: 0.32005057}
+  m_Size: {x: 0.3371979, y: 0.38108945}
   m_EdgeRadius: 0
 --- !u!50 &1978588459
 Rigidbody2D:
@@ -13504,7 +13518,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -13518,6 +13532,37 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &1978588460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978588454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94a2f712bf6e20643a8c7d7447e78a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatStrength: 0.2
+--- !u!114 &1978588461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978588454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9c66bd4497cdc44a87e2f168eac049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  glow: {fileID: 0}
+  attackPower: 0
+  knockback:
+  - 400
+  - 200
 --- !u!1 &2044498897
 GameObject:
   m_ObjectHideFlags: 0

@@ -88,11 +88,13 @@ public class PlayerCombat : MonoBehaviour
         if (playerMovement.canMove)//&& !PauseMenu.GameisPaused)
         {
 
-            if (!animator.GetBool("isJumping") && !animator.GetBool("isFalling"))
-            {
-                //Play animation
-                int attackRandomizer = Random.Range(0, 2);
-                animator.SetInteger("attackRandomizer", attackRandomizer);
+
+
+            //Play animation
+            int attackRandomizer = Random.Range(0, 2);
+            animator.SetInteger("attackRandomizer", attackRandomizer);
+            if (!animator.GetBool("isJumping") && !animator.GetBool("isFalling")){
+
                 if (attackRandomizer == 0)
                 {
 
@@ -105,42 +107,48 @@ public class PlayerCombat : MonoBehaviour
                     attackPoint.transform.position = new Vector2(attackPoint.position.x, transform.position.y - 0.8f);
 
                 }
-                //FindObjectOfType<AudioManager>().Play("PlayerAttack");
-                animator.SetTrigger("attack");
-                StartCoroutine(stopMovement());
 
-                // Detect enemies in range
+            }else{
+                
+                attackPoint.transform.position = new Vector2(attackPoint.position.x, transform.position.y + 0.1f);
 
-                Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-                Collider2D[] hitBosses = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, bossLayers);
-
-                // Damage
-                //foreach (Collider2D enemy in hitEnemies)
-                //{
-
-                //enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
-
-                //}
-
-                //foreach (Collider2D boss in hitBosses)
-                //{
-                //if (boss.GetComponent<Boss>() != null)
-                //{
-
-                //boss.GetComponent<Boss>().TakeDamage(attackDamage);
-
-                //}
-                //else
-                //{
-
-                //boss.GetComponent<BigBoss>().TakeDamage(attackDamage);
-
-                //}
-
-
-                //}
             }
-            else if (animator.GetBool("isCrouching"))
+            
+            //FindObjectOfType<AudioManager>().Play("PlayerAttack");
+            animator.SetTrigger("attack");
+            StartCoroutine(stopMovement());
+
+            // Detect enemies in range
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+            // Collider2D[] hitBosses = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, bossLayers);
+
+            // Damage
+            foreach (Collider2D enemy in hitEnemies)
+            {
+
+                enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+
+            }
+
+            //foreach (Collider2D boss in hitBosses)
+            //{
+            //if (boss.GetComponent<Boss>() != null)
+            //{
+
+            //boss.GetComponent<Boss>().TakeDamage(attackDamage);
+
+            //}
+            //else
+            //{
+
+            //boss.GetComponent<BigBoss>().TakeDamage(attackDamage);
+
+            //}
+
+
+            //}
+
+            if (animator.GetBool("isCrouching"))
             {
 
                 attackPoint.transform.position = new Vector2(attackPoint.position.x, transform.position.y - 0.8f);
@@ -189,7 +197,6 @@ public class PlayerCombat : MonoBehaviour
         }
 
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
-
     }
 
     IEnumerator stopMovement()
