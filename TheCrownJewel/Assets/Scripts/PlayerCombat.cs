@@ -41,7 +41,7 @@ public class PlayerCombat : MonoBehaviour
 
             if (!characterController.m_Running)
             {
-                Attack();
+                Attack(attackPoint, attackRange);
             }
 
 
@@ -82,7 +82,7 @@ public class PlayerCombat : MonoBehaviour
 
     }
 
-    private void Attack()
+    private void Attack(Transform attackPoint, float attackRange)
     {
 
         if (playerMovement.canMove)//&& !PauseMenu.GameisPaused)

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Background
+  - Fire_Power
   layers:
   - Default
   - TransparentFX
